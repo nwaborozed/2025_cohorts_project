@@ -41,7 +41,7 @@ pipeline {
                     tomcat9(
                         credentialsId: 'tomcat_password', 
                         path: '', 
-                        url: 'http://18.216.91.139:8080/'
+                        url: 'http://3.144.15.246:8080/'
                     )
                 ], contextPath: 'webapp', war: '**/*.war'
             }
